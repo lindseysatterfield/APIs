@@ -1,16 +1,21 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
+html, body {
+  height: 100%;
+}
+
 body {
   background-color: black;
-  color: brown;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #main-container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: auto;
+  border-radius: 20px;
 }
